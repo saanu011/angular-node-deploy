@@ -11,7 +11,7 @@ export class NavComponent implements OnInit {
   title = 'WEBSITE';
 
   constructor(
-    private authservice: AuthService,
+    public authservice: AuthService,
     private router: Router
   ) { }
 
